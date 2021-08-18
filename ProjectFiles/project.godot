@@ -24,10 +24,6 @@ config/name="Godot Platformer"
 run/main_scene="res://src/levels/testLevel.tscn"
 config/icon="res://icon.png"
 
-[display]
-
-window/size/fullscreen=true
-
 [editor_plugins]
 
 enabled=PoolStringArray( "wakatime" )
