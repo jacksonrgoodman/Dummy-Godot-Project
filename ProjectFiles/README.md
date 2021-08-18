@@ -24,6 +24,9 @@ One can change **icon.png** to be the logo for any project. It will display here
 ### - project.GODOT file
 What Godot will have to open to make sens of these files.
 
+### - LICENSE file
+Godot's Copyright and MIT License information
+
 ### - Addons
 The addons directory is ignored by root `.gitignore`.
 Include needed addons either in the main Project Files Directory, or in a subfolder other than addons.
