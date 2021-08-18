@@ -11,7 +11,7 @@ I will comment frequently as I work on this and other similar projects.
 ## Icon
 ![logo](icon.png) **icon.png**
 
-you can change **icon.png** to be the logo for any project. It will display here and in the root README file.
+One can change **icon.png** to be the logo for any project. It will display here and in the root [README](../README.md) file.
 
 ## Addons
 The addons directory is ignored by root `.gitignore`.
