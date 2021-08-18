@@ -8,6 +8,11 @@ Organizes trees of nodes into reusable scenes, wiring said nodes with signals th
 This is meant to be a dummy template repository for basic learning and git version control.
 I will comment frequently as I work on this and other similar projects.
 
+### Assets Directory
+[Directory of media.](assets)
+### SRC Directory
+[Directories of nodes.](src)
+
 ### Icon
 [![logo](icon.png)](./icon.png) **icon.png**
 
