@@ -28,6 +28,10 @@ config/icon="res://icon.png"
 
 PlayerData="*res://src/autoload/PlayerData.tscn"
 
+[display]
+
+window/size/fullscreen=true
+
 [editor_plugins]
 
 enabled=PoolStringArray( "wakatime" )

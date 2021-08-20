@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://src/userinterface/ChangeSceneButton.tscn" type="PackedScene" id=1]
 [ext_resource path="res://src/userinterface/QuitButton.tscn" type="PackedScene" id=2]
 [ext_resource path="res://assets/ui_theme.tres" type="Theme" id=3]
+[ext_resource path="res://src/screens/EndScreen.gd" type="Script" id=4]
 [ext_resource path="res://assets/background.png" type="Texture" id=5]
 [ext_resource path="res://src/userinterface/Title.tscn" type="PackedScene" id=6]
 
@@ -10,6 +11,7 @@
 anchor_right = 1.0
 anchor_bottom = 1.0
 theme = ExtResource( 3 )
+script = ExtResource( 4 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -59,4 +61,4 @@ margin_top = 200.0
 margin_right = 117.5
 margin_bottom = 265.0
 text = "Your score: %s
-You died times %s"
+You died %s times"

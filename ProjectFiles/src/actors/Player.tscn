@@ -4,10 +4,10 @@
 [ext_resource path="res://src/actors/Player.gd" type="Script" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
-extents = Vector2( 45, 42 )
+extents = Vector2( 43, 39 )
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 48, 47 )
+extents = Vector2( 48, 44 )
 
 [node name="Player" type="KinematicBody2D"]
 collision_layer = 2147483650
@@ -21,7 +21,7 @@ position = Vector2( 0, -48 )
 texture = ExtResource( 1 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( 0, -42 )
+position = Vector2( 0, -45 )
 shape = SubResource( 1 )
 
 [node name="Camera2D" type="Camera2D" parent="."]
@@ -43,7 +43,7 @@ collision_layer = 2147483648
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="EnemyDetector"]
 modulate = Color( 0, 0.298039, 1, 1 )
-position = Vector2( 0, -47 )
+position = Vector2( 0, -50 )
 shape = SubResource( 2 )
 [connection signal="area_entered" from="EnemyDetector" to="." method="_on_EnemyDetector_area_entered"]
 [connection signal="body_entered" from="EnemyDetector" to="." method="_on_EnemyDetector_body_entered"]
